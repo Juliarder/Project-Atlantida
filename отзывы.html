@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шапка сайта</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="form_body">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img class="logo_img" src="img/фон2.png" alt="logo"></a>
+            </div>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Главная</a>
+                    <a href="Услуги.html">Услуги</a>
+                    <a href="Прайс.html">Прайс</a>
+                    <a href="Сауна.html">Сауна</a>
+                    <a href="Баня.html">Баня</a>
+                    <a href="Фото.html">Фото</a>
+                    <!-- <a href="отзывы.html">Отзывы</a> -->
+                    <a href="tel:+79221004542">+7 (922) 100-45-42</a>
+                </div>
+            </nav>
+        </header>
+        
+        <form action="#" class="form" id="form">
+            <p><input type="text" name="name" class="feedback-input _req form_input" placeholder="Имя*" id="name"></p>
+            <p><input type="tel" name="tel" class="feedback-input _req form_input" placeholder="Ваш номер телефона*" id="name"></p>
+            <p><input type="email" name="email" class="feedback-input _req _email form_input" placeholder="Почта*" id="email"></p>
+            <p><textarea name="text" id="comment" placeholder="Ваш отзыв*" class="feedback-input _req"></textarea></p>
+            <div class="form_item">
+                <div class="form_label">Прикрепить фото</div>
+                <div class="file">
+                    <div class="file_item">
+                        <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file_input">
+                        <div class="file_button">Выбрать</div>
+                    </div>
+                    <div id="formPreview" class="file_preview"></div>
+                </div>
+                <div class="form_item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="Agreement" class="checkbox_input _req">
+                        <label for="formAgreement" class="checkbox_label">Я даю своё согласие на обработку персональных данных</label>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Отправить" class="button-submit">
+            <div class="ease"></div>
+        </form>
+        <footer>
+            <nav>
+                <a href="Услуги.html">Услуги</a>
+                <a href="Прайс.html">Прайс</a>
+                <a href="Сауна.html">Сауна</a>
+                <a href="Баня.html">Баня</a>
+                <a href="Фото.html">Фото</a>
+                <!-- <a href="отзывы.html">Отзывы</a> -->
+                <a href="tel:+79221004542">+7 (922) 100-45-42</a>
+            
+            </nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo_img" src="img/фон.png" alt="">
+                </a>
+            </div>
+            <div class="social">
+                <a href="tel:+79221004542">+7 (922) 100-45-42</a>
+            </div>
+            <p>
+                <a href="https://vk.com/elplaygame">Web Developer</a>
+            </p>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
